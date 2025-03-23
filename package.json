@@ -1,8 +1,12 @@
 {
-  "name": "ui-lib-vite",
-  "private": true,
+  "name": "@starkov_sergey/ui-lib-vite",
   "version": "0.0.1",
   "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
